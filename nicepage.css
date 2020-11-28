@@ -8,6 +8,41 @@
  * Copyright (c) 2018 Daniel Eden
  */
 
+
+ .contact-cont{
+  text-align: center;
+}
+
+.contact-cont>h2{
+  margin-bottom:25px;
+}
+
+.contact-cont hr{
+  width:10%;
+  text-align: center;
+  margin:auto;
+  margin-bottom:50px;
+  border-radius:20px;
+  height:1px;
+  background-color: darkgray;
+
+}
+
+.contact-cont p{
+  margin-bottom:0px;
+}
+
+
+.row.contact{
+  padding-bottom:50px;
+}
+
+.contact-cont p, .contact-cont h5,.contact-cont h4{
+  color:grey;
+}
+
+ 
+
 @-webkit-keyframes bounce {
   from,
   20%,
