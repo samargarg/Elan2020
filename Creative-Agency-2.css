@@ -756,7 +756,7 @@
 }
 
 .u-section-6 .u-image-2 {
-  background-image: url("images/pexelsphoto1065710.jpeg");
+  background-image: url("images/classical.JPG");
   min-height: 355px;
   background-position: 50% 50%;
 }
@@ -782,7 +782,7 @@
 }
 
 .u-section-6 .u-image-4 {
-  background-image: url("images/pexelsphoto1036379.jpeg");
+  background-image: url("images/stage.JPG");
   min-height: 355px;
   background-position: 50% 50%;
 }
@@ -795,6 +795,8 @@
   height: 149px;
   width: 405px;
   margin: 0 auto 0 0;
+  object-fit: cover;
+  object-position: 50% 30%;
 }
 
 .u-section-6 .u-btn-1 {
