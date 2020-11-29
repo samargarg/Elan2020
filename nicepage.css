@@ -8,6 +8,13 @@
  * Copyright (c) 2018 Daniel Eden
  */
 
+#Sponsors:hover{
+   font-size: xx-large;
+   transition: 1s;
+	transform: scale(1.1);
+  text-decoration: underline;
+  color: navy;
+}
 
  .contact-cont{
   text-align: center;
