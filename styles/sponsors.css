@@ -74,6 +74,11 @@ main figure{
     position: relative;
 }
 
+.row.social-links .web-link-temp{
+    width:auto;
+    margin:auto;
+}
+
 figure{
     bottom:0px;
     height:247px;
