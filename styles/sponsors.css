@@ -1,0 +1,250 @@
+
+
+h1{
+    font-size:200px;
+    color:white;
+    width:fit-content;
+    margin:0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+
+.heading-cont-skewed{
+    transform:rotateX(-10deg) skewY(-10deg);
+    margin:auto;
+    width:auto;
+    text-align: center;
+    /* overflow: hidden; */
+    width: fit-content;
+    
+}
+
+.heading img{
+    width:100%;
+    height:100vh;
+    object-position: 50% 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.heading-cont{
+    position: relative;
+    top:200px;
+}
+
+
+.heading{
+    height:100vh;
+}
+
+main{
+    background-color: white;
+    z-index:50;
+}
+
+div.img-wrapper img{
+    width:inherit;
+    object-fit: contain;
+    max-width: 235px;
+    height:100%;
+    vertical-align: middle;
+}
+
+/* .big-img-wrapper img{
+
+} */
+
+main figure{
+    width:inherit;
+    text-align:center;
+}
+
+.row figcaption{
+    font-size:20px;
+}
+
+.row.title figcaption{
+    font-size: 28px;
+    padding-top:25px;
+}
+
+.row{
+    padding-bottom:125px;
+    position: relative;
+}
+
+figure{
+    bottom:0px;
+    height:247px;
+}
+
+.img-wrapper img.img-fluid{
+    height:100%;
+}
+
+div.img-wrapper{
+    /* position: absolute; */
+    max-height:247px;
+    position: relative;
+    display:inline-block;
+    height:194px;
+}
+
+/* .img-wrapper img:hover{
+    transform: scale(1.25);
+} */
+
+.big-img-wrapper{
+    position:relative;
+}
+
+.contact-cont{
+    text-align: center;
+}
+
+.contact-cont>h2{
+    margin-bottom:25px;
+}
+
+.contact-cont hr{
+    width:10%;
+    text-align: center;
+    margin:auto;
+    margin-bottom:50px;
+    border-radius:20px;
+    height:1px;
+    background-color: darkgray;
+
+}
+
+.contact-cont p{
+    margin-bottom:0px;
+}
+
+
+.row.contact{
+    padding-bottom:50px;
+}
+
+.contact-cont p, .contact-cont h5,.contact-cont h4{
+    color:grey;
+}
+
+
+
+/*   Popover CSS  */
+.popover__title {
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    /* color: rgb(228, 68, 68); */
+    text-align: center;
+    /* padding: 15px 0; */
+  }
+  
+  .popover__wrapper {
+    position: relative;
+    z-index:101;
+  }
+  .popover__content {
+    z-index:10;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    
+    transform: translate(0, 10px);
+    /* background-color: #bfbfbf; */
+    background-color:#fff;
+    border-radius: 40px 40px 40px 40px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    width:33vw;
+    min-width: 100%;
+
+    background: linear-gradient(306deg, #ee3a88, #80a2f6);
+    background-size: 400% 400%;
+
+    -webkit-animation: dynamicGradient 11s ease infinite;
+    -moz-animation: dynamicGradient 11s ease infinite;
+    animation: dynamicGradient 11s ease infinite;
+    /* left:-125px; */
+  }
+
+  @-webkit-keyframes dynamicGradient {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@-moz-keyframes dynamicGradient {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@keyframes dynamicGradient {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+
+  @media only screen and (min-width:1023px){
+    /* div.row>.reveal.col-lg-4:nth-of-type(1) .popover__content{
+        left:-5vw;
+    }
+   */
+    div.row>.reveal.col-lg-4:nth-of-type(2) .popover__content{
+      left:-2vw;
+  }
+  
+  div.row>.reveal.col-lg-4:nth-of-type(3) .popover__content{
+      left:-2vw;
+  }
+  }
+
+
+  .popover__content h2{
+      color:white;
+      -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:azure;
+  }
+
+  .popover__content p{
+    color:white;
+  }
+
+  .row.social-links img{
+      width:30px;
+      height:30px;
+
+  }
+
+  .row.social-links{
+      padding-bottom: 0px;;
+  }
+ 
+
+  /* .popover__content:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    right: calc(50% - 10px);
+    top: -8px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #fff transparent; /*  bfbfbf 
+    transition-duration: 0.3s;
+    transition-property: transform;
+  } */
+  .popover__wrapper:hover .popover__content {
+    z-index: 101;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -20px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  }
+  .popover__message {
+    text-align: center;
+  }
+
+
+  
