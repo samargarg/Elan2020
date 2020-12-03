@@ -16,6 +16,23 @@
   color: navy;
 }
 
+#Team_Domains:hover{
+  font-size: xx-large;
+  transition: 1s;
+	transform: scale(1.1);
+  text-decoration: underline;
+  color: navy;
+}
+
+#Events:hover{
+  font-size: xx-large;
+  transition: 1s;
+	transform: scale(1.05);
+  text-decoration: underline;
+  color: navy;
+}
+
+
  .contact-cont{
   text-align: center;
 }
