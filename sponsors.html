@@ -2,12 +2,15 @@
 
 <html>
     <head>
-	 <link rel="icon" href="images/Logo4.jpg">
         <title>Sponsors</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap" rel="stylesheet"> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/sponsors.css"/>
         <!-- <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script> -->
        
@@ -36,10 +39,11 @@
             </ul>
     </div > -->
 
-    <header class="cd-header">
+    <header class="cd-header blurry">
+        <div class="blurrer blur-placeholder"></div>
 		<div class="header-wrapper">
 			<div class="logo-wrap">
-				<a href="#" class="hover-target"><img class="elan-logo" src="img/favicon.png">  </a>
+				<a href="/index.html" class="hover-target"><img class="elan-logo" src="img/favicon.png">  </a>
 			</div>
 			<div class="nav-but-wrap">
 				<div class="menu-icon hover-target">
@@ -54,11 +58,10 @@
 	<div class="nav external">
 		<div class="nav__content">
 			<ul class="nav__list">
-				<li class="nav__list-item "><a href="index.html" class="hover-target">Home</a></li>
-                <li class="nav__list-item active-nav"><a href="#" class="hover-target">Sponsors</a></li>
-				<li class="nav__list-item "><a href="./Team/Domains and Team.html" class="hover-target">Team and Domains</a></li>
-				<!-- <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
-				<li class="nav__list-item"><a href="#" class="hover-target">contact</a></li> -->
+				<li class="nav__list-item "><a href="/index.html" class="hover-target">home</a></li>
+				<!-- <li class="nav__list-item "><a href="#" class="hover-target">Events</a></li> -->
+				<li class="nav__list-item active-nav"><a href="#" class="hover-target">Sponsors</a></li>
+				<li class="nav__list-item"><a href="Team/Domains and Team.html" class="hover-target">Domains & Teams</a></li>
 			</ul>
 		</div>
 	</div>		
@@ -71,21 +74,24 @@
 
 
     <section class="heading">
-        <div class='bg-img-wrapper'>
+        <!-- <div class='bg-img-wrapper'>
             <img class="rellax" data-rellax-speed="0" src='img/bg_events.JPG'/>
-        </div>
+        </div> -->
         <div data-anijs="if: mouseover do: bounceLeft animate" data-rellax-speed="3" class="rellax animate__animated animate__heartBeat heading-cont">
             <div  class="heading-cont-skewed">
-                <h1 data-tilt-reset="false" data-tilt>Our<strong>Sponsors</strong></h1>
+                <h1 ><strong>Sponsors</strong></h1> <!--  data-tilt-reset="false" data-tilt -->
             </div>
         </div>
+    </section>
+    <!-- <section class="transition-cont"> -->
+
     </section>
 
     <main>
         <div style="height:200px"></div>
         <div class="container">
             <div class="row title">
-                <div style="position:relative; z-index: 71" class="reveal col-lg-6 offset-lg-3" data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 71" class="reveal col-lg-6 offset-lg-3 offset-sm-2 col-sm-8" data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     <!-- <figure>
                         <div class="big-img-wrapper">
                             <img class="img-fluid" src="img/sponsors/2020/realme.png"/>
@@ -103,38 +109,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>RealMe</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Realme is a Chinese smartphone manufacturer headquartered in Beijing.Realme also produces a wide variety of other products such as earphones, wireless earphones, T-shirts, bags, fitness bands, smartwatches, etc.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/realmeIndia'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/realmeindia/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/realmecareIN'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.realme.com/in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -146,7 +142,7 @@
             </div>
 
             <div class="row title">
-                <div style="position:relative; z-index: 69" class="reveal col-lg-6 offset-lg-3" data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 69" class="reveal col-lg-6 offset-lg-3 offset-sm-2 col-sm-8" data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     <!-- <figure>
                         <div class="big-img-wrapper">
                             <img class="img-fluid" src="img/sponsors/2020/gail.jpg"/>
@@ -164,47 +160,31 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Gail</h2>
-                            <br/>
-                            
+                            <br>
                             <p>Gail (India) Limited (formerly known as Gas Authority of India Ltd.) is Government of India undertaking company. Gail is the largest state-owned natural gas processing and distribution company in India.</p>
-                            
-
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <br/>
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/GAILIndia/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/gailindia/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/gailindia'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://gailonline.com/home.html">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
-
-
-                            
-
-                            
 
 
                         </div>
@@ -213,7 +193,7 @@
             </div>
 
             <div class="row title">
-                <div style="position:relative; z-index: 67" class="reveal col-lg-6 offset-lg-3" data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 67" class="reveal col-lg-6 offset-lg-3 offset-sm-2 col-sm-8" data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     <!-- <figure>
                         <div class="big-img-wrapper">
                             <img class="img-fluid" src="img/sponsors/2020/gaana_social.png"/>
@@ -223,7 +203,7 @@
 
                     <div class="popover__wrapper">
                         <figure class='popover__title' data-tilt>
-                            <div class="big-img-wrapper">
+                            <div class="big-img-wrapper gaana">
                                 <img class="img-fluid" src="img/sponsors/2020/gaana_social.png"/>
                             </div>
                             <figcaption><span>Gaana - Music Partner</span></figcaption>
@@ -231,38 +211,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Gaana</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Gaana is India's largest commercial music streaming service with over 150 million monthly users. The entire Indian music catalog is available to users worldwide. Gaana.com features music from 21 languages</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/gaana.com'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/gaana/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/gaana'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://gaana.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -274,7 +244,7 @@
             </div>
 
             <div style="position:relative; z-index: 66"  class="row ">
-                <div style="position:relative; z-index: 65"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 65"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     <div class="popover__wrapper">
                         
 
@@ -289,38 +259,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Azure Skynet</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Azure Skynet is an ISO 9001:2015 certified training and service provider company which deals in imparting superior quality of training on various technologies from different domains of IT industry.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/azureskynet/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/azureskynet/?igshid=17d9km8a0bqhq&hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/azureskynet'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.azureskynet.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -330,7 +290,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 64"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 64"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
 
                     
                     <div class="popover__wrapper">
@@ -345,38 +305,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Honeywell</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/Honeywell/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/honeywell'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/honeywell'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.honeywell.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -386,7 +336,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 63"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 63"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -401,38 +351,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>SBI</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>State Bank of India is an Indian multinational, public sector banking and financial services statutory body.SBI provides a range of banking products through its network of branches in India and overseas</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/StateBankOfIndia'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/theofficialsbi'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/TheOfficialSBI'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://onlinesbi.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -445,7 +385,7 @@
             </div>
 
             <div style="position:relative; z-index: 62"  class="row ">
-                <div style="position:relative; z-index: 61"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 61"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -460,38 +400,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Canara bank</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Canara Bank Limited is one of the largest public sector banks owned by the Government of India.Canara Bank occupies a premier position in the comity of Indian banks with an unbroken record of profits since its inception.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/canarabank'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/canarabankinsta'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/canarabank'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.canarabank.com/english/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -501,7 +431,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 60"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 60"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -516,38 +446,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Solitaire fitness</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Solitaire Fitness Pro, is registered Trade Mark of Solitaire International Co based out of Hyderabad. Their centres are established with the most modern and scientifically built equipment, well trained trainers and world class ambiance.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/solitairefitness'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/solitairefitness'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://solitairefitness.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -557,7 +477,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 59"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 59"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -572,38 +492,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Vijaya telangana</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Vijay Dairy has a committed vision to procure quality milk from the farmers and produce milk and milk products through superior technology and process and makes it available to customers at competitive price.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/vijayadairyT/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/vijayadairytg/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/dairy_vijaya?lang=en'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://tsdairy.telangana.gov.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -616,7 +526,7 @@
             </div>
 
             <div style="position:relative; z-index: 58"  class="row ">
-                <div class="reveal col-lg-4 " style="position:relative; z-index: 58" data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div class="reveal sponsor-tile col-lg-4 " style="position:relative; z-index: 58" data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -631,39 +541,29 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Talent sprint</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>TalentSprint brings high-end and deep-tech education to aspiring and experienced professionals. Thier hybrid platform delivers unique onsite and online experiences that help build cutting-edge expertise.
                             </p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/talentsprint/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/talentsprint_edu/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/talentsprint?lang=en'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://talentsprint.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -673,7 +573,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 57"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 57"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -687,38 +587,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Falcon pumps</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Falcon Pumps Pvt. Ltd. is a leading manufacturer of world-class pumping solutions providing technically most advanced, excellent energy efficient and lifelong durable pumping equipments across the globe.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/falconpump/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/falconpumps2019/?igshid=18qyseeym0031'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.falconpumps.in/index.php">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -728,7 +618,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 56"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 56"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -739,53 +629,69 @@
                             <figcaption><span>Official Smartphone Sponsor</span></figcaption>
                         </figure>
 
+                        <!-- "<div class='row social-links'>
+                            <div class='col-1 social-thumb offset-4  '>
+                                <a href='https://www.facebook.com/realmeIndia'>
+                                    <img src='img/icons/fb.png'>
+                                </a>
+                            </div>
+                            <div class='col-1 social-thumb '>
+                                <a href='https://www.instagram.com/realmeindia/'>
+                                    <img src='img/icons/insta.png'>
+                                </a>
+                            </div>
+                            <div class='col-1 social-thumb '>
+                                <a href='https://twitter.com/realmecareIN'>
+                                    <img src='img/icons/twitter.png'>
+                                </a>
+                            </div>
+                            <div class='col-1 social-thumb '>
+                                <a href='#'>
+                                    <img src='img/icons/web.png'>
+                                </a>
+                            </div>
+                        </div>" -->
+
                         <div class="popover__content naoToolTip">
-                            <h2>Realme</h2>
-                            <br/>
-                            <br/>
+                            <h2>RealMe</h2>
+                            <br>
                             <p>Realme is a Chinese smartphone manufacturer headquartered in Beijing.Realme also produces a wide variety of other products such as earphones, wireless earphones, T-shirts, bags, fitness bands, smartwatches, etc.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/realmeIndia'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/realmeindia/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/realmecareIN'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
-                                    <a href="https://www.realme.com/in/">
-                                        <img src="img/icons/web.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.realme.com/in/'>
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
 
 
                         </div>
+
+
+                        
                     </div>
                 </div>
                 
             </div>
 
             <div style="position:relative; z-index: 55"  class="row ">
-                <div style="position:relative; z-index: 54"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 54"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                  
 
                     <div class="popover__wrapper">
@@ -798,38 +704,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>LIC</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Life Insurance Corporation of India (abbreviated as LIC) is an Indian state-owned insurance group and investment corporation owned by the Government of India. Over 245 insurance companies and provident societies were merged to create the state-owned Life Insurance Corporation of India.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/LICIndiaForever'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/licindiaforever/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/LICIndiaForever'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://www.licindia.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -839,7 +735,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 53"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 53"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                  
 
                     <div class="popover__wrapper">
@@ -852,38 +748,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>NTPC</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>NTPC Limited, formerly known as National Thermal Power Corporation Limited, is an Indian Public Sector Undertaking, engaged in the business of generation of electricity and allied activities.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/ntpc1/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/ntpclimited/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/ntpclimited'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.ntpc.co.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -893,7 +779,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 52"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 52"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -906,38 +792,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Tinder</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Tinder is an American geosocial networking and online dating application that allows users to anonymously swipe to like or dislike other profiles based on their photos, a small bio, and common interests.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/TinderInd'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/tinder_india'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/Tinder_India'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://tinder.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -950,7 +826,7 @@
             </div>
 
             <div style="position:relative; z-index: 51"  class="row ">
-                <div  style="position:relative; z-index: 50" class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div  style="position:relative; z-index: 50" class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -963,39 +839,29 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Harbour technologies</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Harbour Technologies is a company by Engineers and a leading provider of end to end workshop and education solutions, covering various emerging technologies in India. They are trusted service brands in the field of latest technologies .
                             </p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/harbourtech'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://www.harbourtech.co.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1005,7 +871,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 49"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 49"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -1018,38 +884,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Refuel Merchant</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Refuel Merchant is a leading distributor and supplier of Lubricant Oil and Castrol Oil. Refuel Merchant is listed in Trade India's verified sellers offering supreme quality.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href=''>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='#'>
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1059,7 +915,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 48"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 48"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -1072,38 +928,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Jersey Recharge</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Creamline Dairy Products Limited (CDPL) is a leading Private Dairy player in Southern India. Its products are sold under the brand name `Jersey’. Since inception in 1986, the company has been growing consistently.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/GodrejJersey/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/godrejjersey/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/godrejjersey'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://www.creamlinedairy.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1116,7 +962,7 @@
             </div>
 
             <div style="position:relative; z-index: 47"  class="row ">
-                <div style="position:relative; z-index: 46"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 46"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -1129,38 +975,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>London Bubble Co.</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>London Bubble Company is a famous enterprise known for its waffles. They bring to you a variety of things which might delight your Sugar Tooth. They have come up with options of healthy waffles, dairy free milkshakes, New & better chocolate and waffles</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='http://www.facebook.com/LondonBubbleCo'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F71422031%2Fadmin'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://londonbubbleco.com">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1170,7 +1006,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 45"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 45"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -1183,38 +1019,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Loacker</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Since 1925, the name Loacker has stood for pure and wholesome natural goodness, the highest quality and love for nature - combined in their delicious wafer and chocolate specialities. They are known for their amazing line of chocolate products and wafers.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/Loacker/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/loacker/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.loacker.com/int/en/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1224,7 +1050,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 44"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 44"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -1237,38 +1063,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Verzeo</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Verzeo is a pioneer in the Ed-Tech industry, the fastest-growing professional training platform in the country. As part of their initiative for educating the upcoming generations to be producers of technology, they provide top-class internship and certification programs</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/verzeo.leadanywhere/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/verzeo/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/verzeo1?lang=en'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.verzeo.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1281,7 +1097,7 @@
             </div>
 
             <div style="position:relative; z-index: 43"  class="row ">
-                <div style="position:relative; z-index: 42"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 42"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -1294,38 +1110,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>OLA</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Ola is India’s largest mobility platform and one of the world’s largest ride-hailing companies, serving 250+ cities. The Ola app offers mobility solutions by connecting customers to drivers and a wide range of vehicles, enabling convenience and transparency for hundreds of millions of consumers and over 1.5 million driver-partners.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/Olacabs'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/olacabs'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/Olacabs'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.olacabs.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1335,7 +1141,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 41"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 41"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -1349,38 +1155,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>CENTRO</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>With the vision to deliver unparalleled and quality fashion footwear, to adorn feet across the country, CENTRO, within a decade of its inception, has established itself as one of the largest retail, distribution, and franchising companies in South India.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/centroshoes/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/centroshoesindia/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/centro_shoes'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.fashioncentro.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1390,7 +1186,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 40"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 40"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -1404,38 +1200,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Awesong</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Awesong.in is a next generation music platform where the budding artists from all over the world get chance to showcase their talent and redefine the original songs with their own music creations. Awesong is India's first platform to redefine the music and to bring and nurture music talent.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/awesong.in/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/awesong.in'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.twitter.com/awesongmusic'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://awesong.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1448,7 +1234,7 @@
             </div>
 
             <div style="position:relative; z-index: 39"  class="row ">
-                <div style="position:relative; z-index: 38"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 38"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -1461,39 +1247,29 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Veels on 5er</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Veels on 5er are committed to satisfy all your hobby needs. They help you get into the hobby by providing all the details/information you would ever require.
                                 They provide complete sales & service for any brand/model RC Nitro Cars, Electric Cars</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/VeelsOn5er/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://www.veelson5er.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1503,7 +1279,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 37"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 37"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                 
 
                     <div class="popover__wrapper">
@@ -1516,38 +1292,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Ascend</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Ascend from Harvard Business Review is a digital learning companion for millennials and graduating students, focused on developing soft-skills which can provide an extra edge for balanced career growth.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/hbrascend/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/hbrascend/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/hbrascend?lang=en'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://hbrascend.org/home/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1557,7 +1323,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 36"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 36"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                   
 
                     <div class="popover__wrapper">
@@ -1570,38 +1336,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>India Film Project </h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>India Film Project, since its birth in 2011, has been putting in efforts to build a community of content creators across the varying forms of art. The 50-hour filmmaking challenge is IFP’s cornerstone. Now IFP also extended itself in other forms of art, mainly writing, designing, music and storytelling</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://facebook.com/indiafilmproject'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://instagram.com/indiafilmproject'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/ifilmproject'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://indiafilmproject.co/campus/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1614,7 +1370,7 @@
             </div>
 
             <div style="position:relative; z-index: 35"  class="row ">
-                <div style="position:relative; z-index: 34"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 34"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -1627,38 +1383,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Portronics</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Since its inception in 2010, Portronics has been a pioneer in Portable & Innovative technology. A leader in the Consumer Electronics space, Portronics has launched over 1,600 products since its inception and continues to make access to innovation, easier. They believe that a product is more than just a gadget; its a lifestyle experience!</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/portronics.india'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://instagram.com/portronics.india'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/portronics'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.portronics.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1668,7 +1414,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 33"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 33"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -1681,38 +1427,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Hy Dance Studios</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Hy dance studio believes that nobody has two left feet. Every living being feels music and it moves the soul. They are known for being the guides in creating an expression for what you feel, how you feel and with how much intensity, in the form of dancing.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='http://fb.com/hydance.in'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='http://instagr.am/hydance.in'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://www.hydance.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1722,7 +1458,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 32"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 32"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                 
 
                     <div class="popover__wrapper">
@@ -1735,38 +1471,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Safe Express</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Safexpress began its journey in 1997 with a mission of delivering logistics excellence to its customers and ensuring their success. Today, the firm has firmly entrenched itself as the 'Knowledge Leader' and 'Market Leader' of supply chain & logistics industry in India.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/SafexpressPrivateLimited/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/safexpress/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/Safexpress?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://www.safexpress.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1779,7 +1505,7 @@
             </div>
 
             <div style="position:relative; z-index: 31"  class="row ">
-                <div style="position:relative; z-index: 30"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 30"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                 
 
                     <div class="popover__wrapper">
@@ -1792,38 +1518,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>ATKT</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>ATKT.in is India's first nation-wide community for, by, and of culturally talented youth. ATKT provides a platform for college-level artists and creators across the fields of performing arts like singing, dancing, slam poetry, and comedy. </p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/pg/ATKT.in/about/?ref=page_internal'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/atktin/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/atktin'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://atkt.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1833,7 +1549,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 29"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 29"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -1846,38 +1562,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>The Hidden Hour</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>The Hidden Hour is India’s No. 1 Escape room company that offers both play at center and play at home/office games. If you are an adventure game lover and looking for a thrilling games full of suspense and entertainment, then The Hidden Hour games is the best option.Tripadvisor and Google has ranked them as the Top Gaming Attraction in India.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/TheHiddenHour/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/thehiddenhour/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/the_hiddenhour?lang=en'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.thehiddenhour.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1887,7 +1593,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 28"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 28"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                 
 
                     <div class="popover__wrapper">
@@ -1900,38 +1606,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Ski capital</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>SKI Capital Services Limited (SKI) is an established & premier financial and stock broking house with a vision to offer various financial services and products in such a way that it leads to optimum gains for the entities involved in these transactions.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='http://www.facebook.com/skicapital'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='http://twitter.com/skicapitalltd'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='#'>
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1944,7 +1640,7 @@
             </div>
 
             <div style="position:relative; z-index: 27"  class="row ">
-                <div style="position:relative; z-index: 26"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 26"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -1957,38 +1653,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>BYKO journeys</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Byko Journeys primarily is an experiential travel company organizing fixed departure group trips for like-minded travelers. As India's fastest growing travel community, their pledge is to deliver a candid experience as you venture into the heart of wildlands rekindling the fire within.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/bykojourneys/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/bykojourneys/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.bykojourneys.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -1998,7 +1684,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 25"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 25"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -2011,38 +1697,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Grab On</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>GrabOn is a trusted brand and a pioneer in affiliate e-commerce scene in India. They are known for maintaining high quality standards through their unique user interface and user experience. They are known for providing the most authentic and updated coupons and deals. Today, GrabOn is the top player in the coupons and deals industry.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/grabon.in/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/grabonindia/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/GrabOnIn/'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.grabon.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2052,7 +1728,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 24"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 24"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -2065,38 +1741,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>VishuMoney</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>VishUmoney is a diversified, online money-making and saving platform trying to make a huge difference by bringing a positive change in the world of online shopping and earning. VishUmoney provides online shopping from more than 2000 stores, saving while shopping, earning cashback, and earning money by performing some trivial tasks.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/vishumoney/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/vish_u_money/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/vish_u_money'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.vishumoney.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2109,7 +1775,7 @@
             </div>
 
             <div style="position:relative; z-index: 23"  class="row ">
-                <div style="position:relative; z-index: 22"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 22"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -2122,38 +1788,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Wiley </h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>John Wiley & Sons, Inc., commonly known as Wiley, is an American multinational publishing company that  focuses on academic publishing and instructional materials.  The company produces training materials and educational materials for undergraduate, graduate, and continuing education students.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/JohnWileySons/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/wileyglobal?lang=en'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.wiley.com/en-us">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2163,7 +1819,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 21"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 21"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2176,38 +1832,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Coding Blocks</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Coding Blocks was founded in 2014 with a mission to create skilled Software Engineers for our country and the world. Coding Blocks strives to increase student interest by providing hands on practical training on every concept taught in the classroom.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='http://facebook.com/codingblocksindia'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/codingblocks/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='http://twitter.com/codingblocksIN'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://codingblocks.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2217,7 +1863,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 20"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 20"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                 
 
                     <div class="popover__wrapper">
@@ -2230,38 +1876,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Event Beep</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Event Beep is a platform for all the students to find all the event, activities & happenings in their cities, colleges based on their interests. With the vision of making college life eventful,Event Beep is a next generation community for students to connect, discover and reach their full potential.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://eventbeep.com/#'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/eventbeepindia/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://eventbeep.com/#'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.eventbeep.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2274,7 +1910,7 @@
             </div>
 
             <div style="position:relative; z-index: 19"  class="row ">
-                <div style="position:relative; z-index: 18"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 18"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                    
 
                     <div class="popover__wrapper">
@@ -2287,38 +1923,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Hyderabad Komedy Klub</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Hyderabad Komedy Klub is an organisation which conducts stand up comedy events and other competitions in and around Hyderabad. </p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/pages/category/Comedy-Club/Hyderabad-Komedy-Klub-299807777392582/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='#'>
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2328,7 +1954,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 17"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 17"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2341,38 +1967,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Telangana Today</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Telangana Today is a registered English-language Indian daily newspaper headquartered in Hyderabad, Telangana, India. The pulication aims to focus mainly on politics and developments of the state of Telangana.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                           <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/telanganatoday/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/telanganatoday/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/TelanganaToday'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://telanganatoday.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2382,7 +1998,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 16"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 16"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2395,38 +2011,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Women's Era</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Woman's Era is an Indian fortnightly women interest magazine, published in English language. Woman's Era covers diverse topics including fashion, cookery, movie and book review, health, relationships, beauty, lifestyle, travel and technology, with comments on socialites and current events.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/mobilemagzter'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/mobilemagzter/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/MobileMagzter'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.womansera.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2439,7 +2045,7 @@
             </div>
 
             <div style="position:relative; z-index: 15"  class="row ">
-                <div style="position:relative; z-index: 14"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 14"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
     
 
                     <div class="popover__wrapper">
@@ -2452,38 +2058,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>DU Beat</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>DU Beat is India's largest independent student newspaper, run entirely by the students of the University of Delhi. t was founded in the year 2006 and has served the students and faculty of Delhi University by addressing students’ issues, reporting news, and publishing opinions.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/DelhiUniversityBeat'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://instagram.com/du_beat'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.twitter.com/du_beat'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://dubeat.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2493,7 +2089,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 13"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 13"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                 
 
                     <div class="popover__wrapper">
@@ -2506,38 +2102,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>DE DU Express</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>DU Express is an independent student run online media platform based in Delhi University.It covers all the latest news and happenings in and around the campus. DU Express is an initiative to provide reliable information to students.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/duexpress.in/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/duexpress/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/du_express?lang=en'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://duexpress.in/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2547,7 +2133,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 12"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 12"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                 
 
                     <div class="popover__wrapper">
@@ -2560,38 +2146,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>92.7 Big FM</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>92.7 Big FM is a national private FM radio station in India. It mainly plays music from local-language films along with occasional Western music.  It broadcasts primarily at 92.7 MHz from 58 stations across the country, reaching a potential audience of 450 million.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/bigfmindia/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/bigfmindia/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/bigfmindia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.bigfmindia.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2604,7 +2180,7 @@
             </div>
 
             <div style="position:relative; z-index: 11"  class="row ">
-                <div style="position:relative; z-index: 10"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 10"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2617,38 +2193,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Shubhang Communications</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Shubang Communications is an integrated advertising, communications, new &media & publishing agency. It works with leading and emerging brands in the most demanding industry sectors, building value through Corporate Communications & Public Relations, Advertising, & New Media.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/pages/category/Public-Relations-Agency/Shubang-Communications-Pvt-Ltd-1821387308122609/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='http://twitter.com/#!/JyothiGosala'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://www.shubangcommunications.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2658,7 +2224,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 9"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 9"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2671,38 +2237,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Youth incorporated</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>The magazine showcases relevant information and articles on education in India and abroad. With campus reviews, student profiles, professor interviews and a strong focus on careers and entrepreneurship, the magazine aims to empower the youth in today’s competitive world. </p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://facebook.com/youthincmag'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://instagram.com/youthincmag'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/youthincmag'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://youthincmag.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2712,7 +2268,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 8"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 8"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2725,38 +2281,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>technology for you</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Technology For You (TFY) Online Media is one of the leading online Tech News Media.They provide the Latest & Real-time news on Technology, Cyber Security, Smartphones/Gadgets, Apps, Startups, Careers, Tech Skills, Web Updates, TechKnowledge, Tech Product Reviews and COVID-19…etc.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/TechnologyForYouTFY/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/technologyforyou1/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/TFYGlobal'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.technologyforyou.org/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2769,7 +2315,7 @@
             </div>
 
             <div style="position:relative; z-index: 7"  class="row ">
-                <div style="position:relative; z-index: 6"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 6"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2782,38 +2328,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Brainfeed</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Brainfeed magazine is one of the pioneers in the field targeting the entire education sector from primary to high school education. It provides latest information on academic issues arising out of classroom pedagogical practices, innovative technology-based teaching and latest developments in the present educational scenario.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/brainfeededumag'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/brainfeedmagazine/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/brainfeedmagazn'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://brainfeedmagazine.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2823,7 +2359,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 5"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 5"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2836,38 +2372,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Bada business</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>Bada Business provides Extensive Knowledge of the Different Business Strategies and Frameworks, which will Help Indian SME’s to Do Big Business or Become Bada Business. Bada Business allows the user to learn 'Everything About Entrepreneurship', which is the World's Most Affordable Entrepreneurship Program</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/DailyMotivationByVivekBindra/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/vivek_bindra/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/DrVivekBindra'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.badabusiness.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2877,7 +2403,7 @@
                     </div>
                 </div>
                 
-                <div style="position:relative; z-index: 4"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 4"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2890,38 +2416,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>WAC</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>What After College helps students to enhance their skills, connect with experts and share their stories. Their aim is to help college students get access to best career counseling advice, training followed by mentoring by arranging career events across the country.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/whataftercollege/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/what_after_college/?hl=en'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/letswac?lang=en#:~:text=What%20After%20College%20(%40letswac)%20%7C%20Twitter'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://whataftercollege.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2934,7 +2450,7 @@
             </div>
 
             <div style="position:relative; z-index: 3"  class="row ">
-                <div style="position:relative; z-index: 2" class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 2" class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -2947,38 +2463,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>Robo Qube</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>RoboQube is a project-oriented educational initiative that sponsors local, regional and international robotic events for young students.It is designed to introduce Robotics to primary and secondary school children, as well as undergraduates.</p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/RoboQubeindia/'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href=''>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="http://roboqube.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -2988,7 +2494,7 @@
                     </div>
                 </div>
 
-                <div style="position:relative; z-index: 1"  class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <div style="position:relative; z-index: 1"  class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     
 
                     <div class="popover__wrapper">
@@ -3001,38 +2507,28 @@
 
                         <div class="popover__content naoToolTip">
                             <h2>The Souled Store</h2>
-                            <br/>
-                            <br/>
+                            <br>
                             <p>The Souled Store creates and curates stunning designs and prints them on all sorts of equally stunning products like t-shirts, phone covers, backpacks, mugs and many more. </p>
                             <br/>
-                            <!-- <div class="row social-links">
-                                <div class="col-lg-1 offset-lg-4">
-                                    <a href="#">
-                                        <img src="img/icons/fb.png">
+                            <div class='row social-links'>
+                                <div class='col-1 social-thumb offset-4  '>
+                                    <a href='https://www.facebook.com/SouledStore'>
+                                        <img src='img/icons/fb.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/insta.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://www.instagram.com/TheSouledStore/'>
+                                        <img src='img/icons/insta.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/twitter.png">
+                                <div class='col-1 social-thumb '>
+                                    <a href='https://twitter.com/TheSouledStore'>
+                                        <img src='img/icons/twitter.png'>
                                     </a>
                                 </div>
-                                <div class="col-lg-1">
-                                    <a href="#">
-                                        <img src="img/icons/web.png">
-                                    </a>
-                                </div>
-                            </div> -->
-
-
-                            <div class="row social-links">
-                                <div class="web-link-temp">
+                                <div class='col-1 social-thumb '>
                                     <a href="https://www.thesouledstore.com/">
-                                        <img src="img/icons/web.png">
+                                        <img src='img/icons/web.png'>
                                     </a>
                                 </div>
                             </div>
@@ -3042,7 +2538,7 @@
                     </div>
                 </div>
                 
-                <!-- <div class="reveal col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
+                <!-- <div class="reveal sponsor-tile col-lg-4 " data-anijs="if: scroll, on:window, do: fadeInUp animated, before: scrollReveal">
                     <figure>
                         <div class="img-wrapper">
                             <img class="img-fluid" src="img/sponsors/2020/sbi.png"/>
@@ -3160,6 +2656,7 @@
         // }
         
         //Navigation
+        
     
         var app = function () {
             var body = undefined;
@@ -3177,8 +2674,24 @@
                 });
             };
             var toggleClass = function toggleClass(element, stringClass) {
-                if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
+                if (element.classList.contains(stringClass))
+                 {
+                    
+                    //$(window).off('scroll');
+                    element.classList.remove(stringClass);
+                 }
+                 else
+                  {
+                    // var current = $(window).scrollTop();
+                    // $(window).scroll(function() {
+                    //     $(window).scrollTop(current);
+                    // });
+                    
+                    element.classList.add(stringClass);
+                  }
             };
+
+           
             init();
         }();
     
@@ -3196,13 +2709,32 @@
             }
         });
 
+
+        var c, currentScrollTop = 0, navbar = $('.cd-header');
+
         $(window).on('scroll',()=>{
-            console.log("hi");
             var scrollY = $(window).scrollTop();
+
+            var b = navbar.height();
+            
+            currentScrollTop = scrollY;
+            
+            if (c < currentScrollTop && scrollY > b + b && scrollY>window.innerHeight - 76) {
+                navbar.addClass("scrollUp");
+            } else if (c > currentScrollTop && !(scrollY <= b)) {
+                navbar.removeClass("scrollUp");
+            }
+            c = currentScrollTop;
+
+
             if(scrollY<window.innerHeight - 76){
                 $("body").removeClass("light");
+                $(".blur-placeholder").removeClass("blurrer")
             }else{
                 $("body").addClass("light");
+                $(".blur-placeholder").addClass("blurrer")
+                //$(".logo-wrap").addClass("disappear")
+
             }
         })
         

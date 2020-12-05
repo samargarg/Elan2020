@@ -145,13 +145,40 @@
 
 
     <body>
-        <header class="cd-header">
+        <!-- <header class="cd-header">
             <div class="header-wrapper">
               <div class="logo-wrap">
                 <a href="#" class="hover-target"><img class="elan-logo" src="../img/favicon.png">  </a>
               </div>			
           </header>
-        </div>		
+        </div>		 -->
+
+        <header style="z-index:1002;" class="cd-header">
+            <div class="header-wrapper">
+                <div class="logo-wrap">
+                    <a href="#" class="hover-target"><img class="elan-logo" src="../img/favicon.png">  </a>
+                </div>
+                <div class="nav-but-wrap">
+                    <div class="menu-icon hover-target">
+                        <span class="menu-icon__line menu-icon__line-left"></span>
+                        <span class="menu-icon__line"></span>
+                        <span class="menu-icon__line menu-icon__line-right"></span>
+                    </div>					
+                </div>					
+            </div>				
+        </header>
+    
+        <div style="z-index:1001;" class="nav external">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item "><a href="../index.html" class="hover-target">Home</a></li>
+                    <!-- <li class="nav__list-item active-nav"><a href="#" class="hover-target">Events</a></li> -->
+                    <li class="nav__list-item "><a href="../sponsors.html" class="hover-target">Sponsors</a></li>
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Team and Domains</a></li>
+                    <!-- <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li> -->
+                </ul>
+            </div>
+        </div>	
         
    <section class="proshows">
         <div class="parallax-slide">
@@ -902,7 +929,50 @@
                 sensitivity:10,
                 shine:true,
                 perspective:500
-            })
+            });
+
+
+            var app = function () {
+            var body = undefined;
+            var menu = undefined;
+            var menuItems = undefined;
+            var init = function init() {
+                body = document.querySelector('body');
+                menu = document.querySelector('.menu-icon');
+                menuItems = document.querySelectorAll('.nav__list-item');
+                applyListeners();
+            };
+            var applyListeners = function applyListeners() {
+                menu.addEventListener('click', function () {
+                    return toggleClass(body, 'nav-active');
+                });
+            };
+            var toggleClass = function toggleClass(element, stringClass) {
+                if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
+            };
+            init();
+        }();
+
+            $("#switch").on('click', function () {
+            if ($("body").hasClass("light")) {
+                $("body").removeClass("light");
+                $("#switch").removeClass("switched");
+            }
+            else {
+                $("body").addClass("light");
+                $("#switch").addClass("switched");
+            }
+        });
+
+        $(window).on('scroll',()=>{
+            console.log("hi");
+            var scrollY = $(window).scrollTop();
+            if(scrollY<window.innerHeight - 76){
+                $("body").removeClass("light");
+            }else{
+                $("body").addClass("light");
+            }
+        })
     
             
         </script>
