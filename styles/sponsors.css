@@ -54,6 +54,13 @@ section.transition-cont {
   background-image: linear-gradient(to bottom, #1a172c 5%, #f4f2f1 100%);
 }
 
+section.elan-logo-transition {
+  background-image: url("../img/thumbnail.png");
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 div.img-wrapper img {
   width: inherit;
   -o-object-fit: contain;
@@ -127,6 +134,7 @@ div.img-wrapper {
 
 .contact-cont > h2 {
   margin-bottom: 25px;
+  color: black;
 }
 
 .contact-cont hr {
