@@ -55,10 +55,19 @@ section.transition-cont {
 }
 
 section.elan-logo-transition {
-  background-image: url("../img/thumbnail.png");
-  height: 350px;
+  height: 450px;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 52% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../img/elan-col.png"), -webkit-gradient(linear, left top, right top, from(#dbd9d9), color-stop(17%, #f4f1f1), color-stop(51%, #fefefe), color-stop(83%, #f4f1f1), to(#dbd9d9)), url("../img/elan-col.png");
+  background-image: url("../img/elan-col.png"), linear-gradient(90deg, #dbd9d9 0%, #f4f1f1 17%, #fefefe 51%, #f4f1f1 83%, #dbd9d9 100%), url("../img/elan-col.png");
+  background-size: 37%,100%;
+}
+
+@media (max-width: 576px) {
+  section.elan-logo-transition {
+    background-size: 90%,100%;
+  }
 }
 
 div.img-wrapper img {

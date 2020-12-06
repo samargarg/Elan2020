@@ -298,6 +298,12 @@ a:hover {
   margin-bottom: 0;
 }
 
+@media (max-width: 576px) {
+  .nav__list-item {
+    font-size: 12vw;
+  }
+}
+
 .nav__list-item a {
   position: relative;
   text-decoration: none;
@@ -1006,7 +1012,7 @@ body {
 
 .u-section-10 .u-text-1 {
   font-size: 1.5rem;
-  margin: 32px 216px 0 196px;
+  margin: 32px 180px 0 196px;
 }
 
 p:not(.u-text-variant) {
@@ -1139,7 +1145,7 @@ svg {
 .u-section-10 .u-text-2 {
   font-weight: 700;
   font-size: 2.25rem;
-  margin: 31px -15px 0 15px;
+  margin: 80px -15px 0 15px;
 }
 
 .u-font-playfair-display.u-custom-font {
@@ -1424,8 +1430,8 @@ h2:not(.u-subtitle) {
   margin-top: calc(var(--size) * 1.5 * -1);
   -webkit-transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);
           transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);
-  top: 50vh;
-  left: 50vw;
+  top: 50%;
+  margin: auto;
 }
 
 .boxes .box {
