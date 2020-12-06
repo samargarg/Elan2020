@@ -24,6 +24,39 @@
     </head>
     <body>
 
+        <div class="loader">
+            <div class="boxes">
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $('html, body').css("overflow","hidden")
+        </script>
+
         <header class="cd-header blurry">
             <div class="blurrer blur-placeholder"></div>
             <div class="header-wrapper">
@@ -808,7 +841,11 @@
     <script src="js/jquery.hover3d.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
     <script>
-
+        window.onload = function(){
+            $('html, body').css("overflow","auto")
+            $('html, body').css("overflow-x","hidden")
+        $(".loader").addClass("loaded");
+        }
 
 var app = function () {
             var body = undefined;

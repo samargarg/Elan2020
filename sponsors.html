@@ -42,6 +42,40 @@
             </ul>
     </div > -->
 
+
+    <div class="loader">
+        <div class="boxes">
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('html, body').css("overflow","hidden")
+    </script>
+
     <header class="cd-header blurry">
         <div class="blurrer blur-placeholder"></div>
 		<div class="header-wrapper">
@@ -2657,6 +2691,12 @@
     <script src="js/naoTooltips.js"></script>
 
     <script>
+
+window.onload = function(){
+            $('html, body').css("overflow","auto")
+            $('html, body').css("overflow-x","hidden")
+        $(".loader").addClass("loaded");
+        }
         var rellax = new Rellax('.rellax');
         
 
