@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Gilroy Heavy";
+  src: url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.eot");
+  src: url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.woff") format("woff"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.svg#Gilroy Heavy") format("svg");
+}
+
+h1 {
+  font-size: 15vw;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: orangered;
+  font-family: "Overpass",sans-serif;
+}
+
+.heading-cont-skewed {
+  -webkit-transform: rotateX(-10deg) skewY(-10deg);
+          transform: rotateX(-10deg) skewY(-10deg);
+  margin: auto;
+  width: auto;
+  text-align: center;
+  /* overflow: hidden; */
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.heading img {
+  width: 100%;
+  height: 100vh;
+  -o-object-position: 50% 100%;
+     object-position: 50% 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+
+.heading-cont {
+  position: relative;
+  top: calc(50vh - 150px);
+  overflow: hidden;
+}
+
+.heading {
+  height: 100vh;
+}
+
+.bubbles {
+  top: -100vh;
+  position: fixed;
+  -webkit-transform: translate3d(0, 0, 0);
+  z-index: 100;
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.proshows img {
+  width: 100%;
+  height: 100vh;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+
+.parallax-img-wrapper {
+  height: 100vh;
+  /* position: relative; */
+}
+
+.darshan-heading {
+  position: absolute;
+}
+
+.parallax-container {
+  height: 500px;
+  width: 100%;
+}
+
+.events a {
+  text-decoration: none;
+  color: white;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+@media (max-width: 576px) {
+  .events a {
+    font-size: 7vw;
+  }
+}
+
+.nav.nav-tabs a.active {
+  color: orange;
+}
+
+.events li {
+  padding: 0px 20px;
+}
+
+.events a:hover {
+  color: orange;
+}
+
+.events {
+  text-align: center;
+  position: relative;
+}
+
+ul.nav {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.events div.skewed-container {
+  -webkit-transform: skewY(-10deg) rotateY(-10deg);
+          transform: skewY(-10deg) rotateY(-10deg);
+  /* height:auto; */
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.events div.skewed-container:hover {
+  -webkit-transform: skewY(-10deg) rotateY(-10deg) scale(0.8);
+          transform: skewY(-10deg) rotateY(-10deg) scale(0.8);
+}
+
+.events div.skewed-content {
+  position: relative;
+}
+
+.events img {
+  max-width: 100%;
+}
+
+.img-tile {
+  padding: 75px 25px;
+  position: relative;
+}
+
+.events .skewed-content h2 {
+  color: white;
+  font-family: "Gilroy Heavy";
+  font-weight: 900;
+  font-size: 32px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: left;
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.events div.skewed-container:hover h2 {
+  -webkit-transform: translate3d(0, 0, 10px) scale(1.2);
+          transform: translate3d(0, 0, 10px) scale(1.2);
+  bottom: 25px;
+}
+
+.parallax-slide {
+  position: relative;
+  height: 100vh;
+}
+
+.parallax-clip {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  /*clip: rect(auto, auto, auto, auto);*/
+}
+
+.fixed-parallax {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  /* -webkit-transform: translateZ(0); /* necessary for iOS! */
+}
+
+/* used only as overlay for the images,
+   darkens it a little in this case */
+.fixed-parallax:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
+  content: "";
+}
+
+/* CSS specific to iOS devices */
+@supports (-webkit-overflow-scrolling: touch) {
+  .parallax-clip {
+    clip: rect(auto, auto, auto, auto);
+  }
+  .fixed-parallax {
+    position: fixed;
+    background-attachment: unset;
+    -webkit-transform: translateZ(0);
+    /* necessary for iOS! */
+  }
+}
+/*# sourceMappingURL=events.css.map */
