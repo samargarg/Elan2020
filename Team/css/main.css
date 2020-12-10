@@ -541,7 +541,7 @@ blockquote:before {
 }
 
 img.circle {
-    border-radius: 50%;
+    radius: 100px;
 }
 
 @media only screen and (max-width:680px) {
