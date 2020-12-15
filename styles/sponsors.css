@@ -158,6 +158,7 @@ div.img-wrapper {
 
 .contact-cont p {
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .row.contact {
@@ -251,6 +252,7 @@ div.img-wrapper {
 
 .popover__content p {
   color: white;
+  font-size: 17px;
 }
 
 .row.social-links img {
@@ -297,5 +299,9 @@ div.img-wrapper {
 
 .popover__message {
   text-align: center;
+}
+
+.contact-card {
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=sponsors.css.map */
