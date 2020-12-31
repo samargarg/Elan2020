@@ -8,12 +8,22 @@
  * Copyright (c) 2018 Daniel Eden
  */
 
+
 #Sponsors:hover{
    font-size: xx-large;
    transition: 1s;
-	transform: scale(1.1);
+	transform: scale(1);
   text-decoration: underline;
   color: navy;
+}
+
+
+#Workshops:hover{
+  font-size: xx-large;
+  transition: 1s;
+ transform: scale(1);
+ text-decoration: underline;
+ color: navy;
 }
 
 #Team_Domains:hover{
@@ -27,7 +37,7 @@
 #Events:hover{
   font-size: xx-large;
   transition: 1s;
-	transform: scale(1.05);
+	transform: scale(1);
   text-decoration: underline;
   color: navy;
 }
@@ -7832,25 +7842,271 @@ ul.u-text li:last-child {
   .u-hidden-xl {
     display: none !important;
   }
+  
+#SliderRealme{
+  padding-top: 40%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#SliderGail{
+  padding-top: 30%; 
+  width: 75%; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#SliderGana{
+  padding-top: 0%; width: 300px; margin-left: auto; margin-right: auto;
+}
+
+#SliderHoneywell{
+  padding-top: 35%; margin-left: auto; margin-right: auto;
+}
+
+#SliderSbi{
+  padding-top: 20%; width: 150px; margin-left: auto; margin-right: auto;
+}
+
+#SliderTinder{
+  padding-top: 20%; margin-left: auto; margin-right: auto;
+}
+
+#SliderCanara{
+  padding-top: 35%; margin-left: auto; margin-right: auto;
+}
+
+#SliderLIC{
+  padding-top: 35%; width: 200px; margin-left: auto; margin-right: auto;
+}
+
+#SliderNTPC{
+  padding-top: 30%; width: 175px; margin-left: auto; margin-right: auto;
+}
+
+#SliderSolitaire{
+  padding-top: 25%; margin-left: auto; margin-right: auto;
+}
+
+#SliderTS{
+  padding-top: 20%; width: 300px; margin-left: auto; margin-right: auto;
+}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-hidden-lg {
     display: none !important;
+  }
+  
+  #SliderRealme{
+    padding-top: 40%;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #SliderGail{
+    padding-top: 30%; 
+    width: 75%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #SliderGana{
+    padding-top: 0%; width: 250px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderHoneywell{
+    padding-top: 35%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderSbi{
+    padding-top: 20%; width: 150px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderTinder{
+    padding-top: 20%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderCanara{
+    padding-top: 35%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderLIC{
+    padding-top: 35%; width: 200px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderNTPC{
+    padding-top: 30%; width: 175px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderSolitaire{
+    padding-top: 25%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderTS{
+    padding-top: 20%; width: 300px; margin-left: auto; margin-right: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .u-hidden-md {
     display: none !important;
   }
+
+  #SliderRealme{
+    padding-top: 40%;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #SliderGail{
+    padding-top: 30%; 
+    width: 75%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #SliderGana{
+    margin-top: -10%; width: 250px; margin-left: -40px; margin-right: auto;
+  }
+
+  #SliderHoneywell{
+    padding-top: 40%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderSbi{
+    padding-top: 20%; width: 100px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderTinder{
+    padding-top: 20%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderCanara{
+    padding-top: 35%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderLIC{
+    padding-top: 35%; width: 150px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderNTPC{
+    padding-top: 30%; width: 150px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderSolitaire{
+    padding-top: 25%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderTS{
+    padding-top: 20%; width: 150px; margin-left: auto; margin-right: auto;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-hidden-sm {
     display: none !important;
   }
+
+  #SliderRealme{
+    padding-top: 40%;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #SliderGail{
+    padding-top: 30%; 
+    width: 75%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #SliderGana{
+    margin-top: -10%; width: 200px; margin-left: -40px; margin-right: auto;
+  }
+
+  #SliderHoneywell{
+    padding-top: 40%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderSbi{
+    padding-top: 20%; width: 75px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderTinder{
+    padding-top: 20%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderCanara{
+    padding-top: 35%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderLIC{
+    padding-top: 30%; width: 125px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderNTPC{
+    padding-top: 30%; width: 100px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderSolitaire{
+    padding-top: 25%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderTS{
+    padding-top: 20%; width: 150px; margin-left: auto; margin-right: auto;
+  }
+
 }
 @media (max-width: 575px) {
   .u-hidden-xs {
     display: none !important;
+  }
+
+  #SliderRealme{
+    padding-top: 40%;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #SliderGail{
+    padding-top: 30%; 
+    width: 75%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #SliderGana{
+    margin-top: -10%; width: 100px; margin-left: -15px; margin-right: auto;
+  }
+
+  #SliderHoneywell{
+    padding-top: 40%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderSbi{
+    padding-top: 20%; width: 50px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderTinder{
+    padding-top: 20%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderCanara{
+    padding-top: 35%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderLIC{
+    padding-top: 30%; width: 75px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderNTPC{
+    padding-top: 30%; width: 50px; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderSolitaire{
+    padding-top: 25%; margin-left: auto; margin-right: auto;
+  }
+
+  #SliderTS{
+    padding-top: 20%; width: 75px; margin-left: auto; margin-right: auto;
   }
 }
 .u-border-none {
@@ -7927,6 +8183,9 @@ section.u-image,
 }
 .u-image-circle.u-expanded-width {
   padding-bottom: 100%;
+}
+
+  
 }
 @media (min-width: 1200px) {
   .u-image-circle.u-expanded-width-xl {
