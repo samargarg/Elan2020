@@ -1,3 +1,279 @@
+// @font-face {font-family: "Gilroy Heavy"; src: url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.eot"); src: url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.woff") format("woff"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.svg#Gilroy Heavy") format("svg"); }
+
+// // Small tablets and large smartphones (landscape view)
+// $screen-sm-min: 576px;
+
+// // Small tablets (portrait view)
+// $screen-md-min: 768px;
+
+// // Tablets and small desktops
+// $screen-lg-min: 992px;
+
+// // Large tablets and desktops
+// $screen-xl-min: 1200px;
+
+
+// // Small devices
+// @mixin mob {
+// 	@media (max-width: #{$screen-sm-min}) {
+// 		@content;
+// 	}
+//  }
+ 
+//  // Medium devices
+//  @mixin sm-md {
+// 	@media (min-width: #{$screen-sm-min} + 1px) and (max-width: #{$screen-md-min}) {
+// 		@content;
+// 	}
+//  }
+ 
+//  // Large devices
+//  @mixin md-lg {
+// 	@media (min-width: #{$screen-md-min} + 1px) and (max-width: #{$screen-lg-min}) {
+// 		@content;
+// 	}
+//  }
+
+//  @mixin lg-xl {
+// 	@media (min-width: #{$screen-lg-min} + 1px) and (max-width: #{$screen-xl-min}) {
+// 		@content;
+// 	}
+//  }
+ 
+//  // Extra large devices
+//  @mixin xl {
+// 	@media (min-width: #{$screen-xl-min}) {
+// 		@content;
+// 	}
+//  }
+
+
+
+// h1{
+//     font-size:15vw;
+//     color:white;
+//     width:fit-content;
+//     margin:0px;
+//     -webkit-text-stroke-width: 1px;
+//     -webkit-text-stroke-color: orangered;
+//     font-family:"Overpass",sans-serif;
+// }
+
+// .heading-cont-skewed{
+//     transform:rotateX(-10deg) skewY(-10deg);
+//     margin:auto;
+//     width:auto;
+//     text-align: center;
+//     /* overflow: hidden; */
+//     width: fit-content;
+    
+// }
+
+// .heading img{
+//     width:100%;
+//     height:100vh;
+//     object-position: 50% 100%;
+//     object-fit: cover;
+//     position: absolute;
+// }
+
+// .heading-cont{
+//     position: relative;
+//     top:calc(50vh - 150px);
+//     overflow: hidden;
+// }
+
+
+// .heading{
+//     height:100vh;
+// }
+
+// .bubbles{
+//     top:-100vh;
+//     position:fixed;
+//     -webkit-transform: translate3d(0, 0, 0);
+//     z-index:100;
+// }
+
+// .bubble{
+//     width:50px;
+//     height:50px;
+//     position: absolute;
+//     z-index: 10;
+    
+// }
+
+// .red{
+//     background: red;
+// }
+
+// .blue{
+//     background: blue;
+// }
+
+// .yellow{
+//     background: yellow;
+// }
+
+// .proshows img{
+//     width:100%;
+//     height:100vh;
+//     object-position: 50% 50%;
+//     object-fit: cover;
+//     position: absolute;
+// }
+// .parallax-img-wrapper{
+//     height:100vh;
+//     /* position: relative; */
+// }
+
+// .darshan-heading{
+//     //opacity:0;
+//     position:absolute;
+//     //bottom:0px;
+// }
+
+// .parallax-container{
+//     height:500px;
+//     width:100%;
+// }
+
+// .events a{
+//     text-decoration: none;
+//     color:white;
+//     font-size:36px;
+//     font-weight: 900;
+
+//     @include mob{
+//         font-size:7vw;
+//     }
+// }
+
+// .nav.nav-tabs a.active{
+//     color:orange;
+// }
+
+// .events li{
+//     padding:0px 20px;
+// }
+
+// .events a:hover{
+//     color:orange;
+// }
+
+// .events{
+//     text-align:center;
+//     position: relative;
+// }
+
+// ul.nav{
+//     width:max-content;
+//     margin:0px auto;
+//     margin-top:50px;
+// }
+
+// .events div.skewed-container{
+//     transform: skewY(-10deg) rotateY(-10deg);
+//     /* height:auto; */
+//     transition-property: all;
+//     transition-duration: 1.5s;
+//     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+// }
+
+// .events div.skewed-container:hover{
+//     transform: skewY(-10deg) rotateY(-10deg) scale(0.8);
+// }
+
+// .events div.skewed-content{
+//     position: relative;
+// }
+
+// .events img{
+//     max-width:100%;
+// }
+
+// .img-tile{
+//     padding:75px 25px;
+//     position: relative;
+// }
+
+// .events .skewed-content h2{
+//     color:white;
+//     font-family: "Gilroy Heavy";
+//     font-weight: 900;
+//     font-size:32px;
+//     -webkit-text-stroke-width: 1px;
+//     -webkit-text-stroke-color: black;
+//     text-align: left;
+//     position: absolute;
+//     bottom:0px;
+//     left:50px;
+//     transition-property: all;
+//     transition-duration: 1.5s;
+//     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+// }
+
+// .events div.skewed-container:hover h2{
+//     transform: translate3d(0,0,10px) scale(1.2);
+//     bottom:25px;
+// }
+
+
+// .parallax-slide {
+// 	position: relative;
+// 	height: 100vh;
+// }
+
+// .parallax-clip {
+// 	height: 100%;
+// 	position: absolute;
+// 	width: 100%;
+// 	left: 0px;
+// 	top: 0px;
+// 	/*clip: rect(auto, auto, auto, auto);*/
+// }
+
+// .fixed-parallax {
+// 	position: relative;
+// 	width: 100%;
+// 	height: 100%;
+// 	left: 0;
+// 	top: 0;
+// 	background-size: cover;
+// 	background-position: center top;
+// 	background-attachment: fixed;
+// 	/* -webkit-transform: translateZ(0); /* necessary for iOS! */
+// }
+
+
+// /* used only as overlay for the images,
+//    darkens it a little in this case */
+// .fixed-parallax:before {
+// 	position: absolute;
+// 	width: 100%;
+// 	height: 100%;
+// 	left: 0;
+// 	top: 0;
+// 	background: rgba(0, 0, 0, 0.2);
+// 	content: "";
+// }
+
+
+// /* CSS specific to iOS devices */ 
+// @supports (-webkit-overflow-scrolling: touch) {
+// 	.parallax-clip {
+// 		clip: rect(auto, auto, auto, auto);
+// 	}
+// 	.fixed-parallax {
+// 		position: fixed;
+// 		background-attachment: unset;
+// 		-webkit-transform: translateZ(0); /* necessary for iOS! */
+// 	}
+// }
+
+
+
+
 @font-face {font-family: "Gilroy Heavy"; src: url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.eot"); src: url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.woff") format("woff"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6061c980f1f3f9420e1829c57a44cd23.svg#Gilroy Heavy") format("svg"); }
 
 // Small tablets and large smartphones (landscape view)
@@ -48,6 +324,54 @@ $screen-xl-min: 1200px;
  }
 
 
+ $LIGHTING_FLOOR: 1;
+$LIGHTING_CEIL: 2;
+$LIGHTING_FLAT: 3;
+
+@mixin text3d(
+  $primary, 
+  $depth: 5, 
+  $shadowsteps: 5, 
+  $shadowincrementer: 3px, 
+  $shadowopacity: .5, 
+  $primaryshadowcolour: #000, 
+  $lighting: $LIGHTING_CEIL) {
+  $predefinedShadows: (
+    0 0 5px rgba($primaryshadowcolour, .05), 
+    0 -1px 3px rgba($primaryshadowcolour, .2), 
+    0 3px 5px rgba($primaryshadowcolour, .2));
+  $value: ();
+  @for $i from 1 through $depth {
+    $num: $i + px;
+    $hueadjust: $i;
+    @if($lighting == $LIGHTING_FLOOR) {
+      $hueadjust: ($i * 2 - $depth - 5) * 1%;
+    } @elseif($lighting == $LIGHTING_CEIL) {
+      $hueadjust: -($i*2 + $depth - 10) * 1%;
+    } @elseif($lighting == $LIGHTING_FLAT) {
+      $hueadjust: -$depth * 1%;
+    }
+    $colour: adjust-color($primary, $lightness: $hueadjust);
+    $theShadow: 0 $num 0 $colour;
+    $value: append($value, $theShadow, comma);
+  }
+  
+  @for $i from 1 through $shadowsteps {
+    @if($i >= length($predefinedShadows)) {
+      $dist: $i * $shadowincrementer;
+      $value: append($value, 0 $dist $dist rgba($primaryshadowcolour, $shadowopacity));
+    } @else {
+      $value: append($value, nth($predefinedShadows, $i));
+    }
+  }
+  
+  text-shadow: $value;
+}
+
+$primarycolour: rgb(125, 104, 153);
+
+
+
 
 h1{
     font-size:15vw;
@@ -55,8 +379,14 @@ h1{
     width:fit-content;
     margin:0px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: orangered;
+    -webkit-text-stroke-color: black;
     font-family:"Overpass",sans-serif;
+
+    @include text3d(
+    adjust-color($primarycolour, $lightness: -8%), 
+    $depth: 8, 
+    $primaryshadowcolour: adjust-color($primarycolour, $lightness: -10%, $saturation: +20%),
+    $shadowopacity: .3);
 }
 
 .heading-cont-skewed{
@@ -127,10 +457,16 @@ h1{
     /* position: relative; */
 }
 
-.darshan-heading{
+h2.darshan-heading{
     //opacity:0;
     position:absolute;
-    //bottom:0px;
+    bottom:2vh;
+    left:5vw;
+
+
+    font-size:5vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .parallax-container{
@@ -173,7 +509,7 @@ ul.nav{
 }
 
 .events div.skewed-container{
-    transform: skewY(-10deg) rotateY(-10deg);
+    //transform: skewY(-10deg) rotateY(-10deg);
     /* height:auto; */
     transition-property: all;
     transition-duration: 1.5s;
@@ -181,7 +517,7 @@ ul.nav{
 }
 
 .events div.skewed-container:hover{
-    transform: skewY(-10deg) rotateY(-10deg) scale(0.8);
+    //transform: skewY(-10deg) rotateY(-10deg) scale(0.8);
 }
 
 .events div.skewed-content{

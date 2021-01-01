@@ -12,8 +12,9 @@ h1 {
   width: fit-content;
   margin: 0px;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: orangered;
+  -webkit-text-stroke-color: black;
   font-family: "Overpass",sans-serif;
+  text-shadow: 0 1px 0 #695781, 0 2px 0 #64537b, 0 3px 0 #5f4f75, 0 4px 0 #5a4b6f, 0 5px 0 #554769, 0 6px 0 #504363, 0 7px 0 #4b3e5d, 0 8px 0 #463a56, 0 0 5px rgba(97, 62, 144, 0.05), 0 -1px 3px rgba(97, 62, 144, 0.2), 0 9px 9px rgba(97, 62, 144, 0.3), 0 12px 12px rgba(97, 62, 144, 0.3), 0 15px 15px rgba(97, 62, 144, 0.3);
 }
 
 .heading-cont-skewed {
@@ -89,8 +90,13 @@ h1 {
   /* position: relative; */
 }
 
-.darshan-heading {
+h2.darshan-heading {
   position: absolute;
+  bottom: 2vh;
+  left: 5vw;
+  font-size: 5vw;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .parallax-container {
@@ -137,8 +143,6 @@ ul.nav {
 }
 
 .events div.skewed-container {
-  -webkit-transform: skewY(-10deg) rotateY(-10deg);
-          transform: skewY(-10deg) rotateY(-10deg);
   /* height:auto; */
   -webkit-transition-property: all;
   transition-property: all;
@@ -146,11 +150,6 @@ ul.nav {
           transition-duration: 1.5s;
   -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
           transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.events div.skewed-container:hover {
-  -webkit-transform: skewY(-10deg) rotateY(-10deg) scale(0.8);
-          transform: skewY(-10deg) rotateY(-10deg) scale(0.8);
 }
 
 .events div.skewed-content {
