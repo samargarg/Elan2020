@@ -3,11 +3,13 @@
 
 
 
-function validateForm(){
+function validateForm(e){
+    document.getElementById('submit_btn').disabled=true;
     var form = document.forms["form"];
     if(!form['name'].value.trim().length){
         //error
         document.getElementById("help_name").innerHTML="Please Enter your Name";
+        document.getElementById('submit_btn').disabled=false;
         return;
         
     }else{
@@ -17,6 +19,7 @@ function validateForm(){
     if(form['password'].value !== form['password'].value){
         //error
         document.getElementById("help_password").innerHTML="Passwords dont match";
+        document.getElementById('submit_btn').disabled=false;
         return;
         
     }else{
@@ -26,6 +29,7 @@ function validateForm(){
     if(!/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(form['email'].value)){
         //error
         document.getElementById("help_email").innerHTML="Please Enter a valid Email";
+        document.getElementById('submit_btn').disabled=false;
         return;
     }else{
         document.getElementById("help_email").innerHTML="";
@@ -34,6 +38,7 @@ function validateForm(){
     if(!/^[6,7,8,9]\d{9}$/.test(form['phone'].value)){
         //error
         document.getElementById("help_phone").innerHTML="Please Enter a valid Phone Number";
+        document.getElementById('submit_btn').disabled=false;
         return;
     }else{
         document.getElementById("help_phone").innerHTML="";
@@ -42,6 +47,7 @@ function validateForm(){
     if(form['institute'].value==""){
         //error
         document.getElementById("help_institute").innerHTML="Please Enter a valid Phone Number";
+        document.getElementById('submit_btn').disabled=false;
         return;
     }else{
         document.getElementById("help_institute").innerHTML="";
@@ -50,6 +56,7 @@ function validateForm(){
     if(!form['insta'].value.trim().length && !form['fb'].value.trim().length){
         //error
         document.getElementById("help_insta").innerHTML="Please Enter either Instagram or Facebook ID";
+        document.getElementById('submit_btn').disabled=false;
         return;
     }else{
         document.getElementById("help_insta").innerHTML="";
@@ -92,7 +99,7 @@ function validateForm(){
             backdrop:'static',
             show:true
         });
-
+        document.getElementById('submit_btn').disabled=false;
         setTimeout(()=>{
             window.location.href= "https://elan.org.in";
         },5000);
