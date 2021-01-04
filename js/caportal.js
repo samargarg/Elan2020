@@ -94,7 +94,7 @@ function validateForm(){
         });
 
         setTimeout(()=>{
-            console.log(window.location.origin+ window.location.pathname + "/index.html");
+            console.log(window.location.origin, window.location.pathname , "/index.html");
             window.location.href= window.location.origin + "/index.html";
         },5000);
     }).then(result => {
