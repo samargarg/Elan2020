@@ -15,8 +15,12 @@ h1 {
 
 @media (max-width: 576px) {
   .heading {
-    height: 85vh;
+    height: 70vh;
   }
+}
+
+.heading div.container {
+  font-size: 20px;
 }
 
 .heading-cont {
@@ -133,7 +137,7 @@ small.form-text {
 }
 
 footer {
-  height: 90vh;
+  height: 65vh;
   background: #97ffc2;
   font-family: Roboto, sans-serif;
 }

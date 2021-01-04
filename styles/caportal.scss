@@ -64,7 +64,11 @@ $screen-xl-min: 1200px;
 background-size: cover;
 
 	@include mob{
-		height:85vh;
+		height:70vh;
+	}
+
+	div.container{
+		font-size:20px;
 	}
 }
 
@@ -180,7 +184,7 @@ small.form-text{
 }
 
 footer{
-	height:90vh;
+	height:65vh;
 	background: #97ffc2;
 	font-family:Roboto, sans-serif
 }
