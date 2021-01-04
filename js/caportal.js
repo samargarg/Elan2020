@@ -49,7 +49,7 @@ function validateForm(){
 
     if(!form['insta'].value.trim().length && !form['fb'].value.trim().length){
         //error
-        document.getElementById("help_insta").innerHTML="Please Enter a valid Phone Number";
+        document.getElementById("help_insta").innerHTML="Please Enter either Instagram or Facebook ID";
         return;
     }else{
         document.getElementById("help_insta").innerHTML="";
