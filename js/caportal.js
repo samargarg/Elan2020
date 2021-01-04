@@ -80,7 +80,7 @@ function validateForm(){
             console.log("User successfully registered")
             $('#modal_title').html("Registration Successful");
             $('#modal_title').css("color","green");
-            $('#modal_body').html("You have been successfully registered as a Capmus Ambassador with Elan & nVision. We will soon mail you the details.<br/><br/>You will now be redirected to the homepage.") ;
+            $('#modal_body').html("Thank you for registering for Campus Ambassador Program! You will be mailed the details for CA portal in a few days.<br/><br/>You will now be redirected to the homepage.") ;
         }else{
             console.log('error');
             $('#modal_title').html("Registration Unsuccessful");
