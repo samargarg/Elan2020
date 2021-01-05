@@ -7889,8 +7889,9 @@ ul.u-text li:last-child {
 }
 
 #SliderTS{
-  padding-top: 20%; width: 300px; margin-left: auto; margin-right: auto;
+  padding-top: 20%; width: 200px; margin-left: auto; margin-right: auto;
 }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-hidden-lg {
@@ -8074,7 +8075,7 @@ ul.u-text li:last-child {
   }
 
   #SliderGana{
-    margin-top: -10%; width: 100px; margin-left: -15px; margin-right: auto;
+    margin-top: 10%; width: 150 px; margin-left: auto; margin-right: auto;
   }
 
   #SliderHoneywell{

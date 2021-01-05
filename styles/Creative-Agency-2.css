@@ -998,6 +998,12 @@ section.sponsors{
   margin:0px 2vw;
 }
 
+.sliderEnd
+{
+  width:1vw;
+  height: 1vw;
+}
+
 .slider img{
   width:20vw;
   object-fit: contain;
