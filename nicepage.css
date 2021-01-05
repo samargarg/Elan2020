@@ -7849,6 +7849,11 @@ ul.u-text li:last-child {
   margin-right: auto;
 }
 
+/*#SliderRealme{
+  padding-top: 40%;
+  margin-left: auto; 
+  margin-right: auto;
+}*/
 
 
 .SliderGail>img{
@@ -7857,6 +7862,13 @@ ul.u-text li:last-child {
   margin-left: auto; 
   margin-right: auto;
 }
+
+/*#SliderGail{
+  padding-top: 30%; 
+  width: 75%; 
+  margin-left: auto; 
+  margin-right: auto;
+}*/
 
 #SliderGana{
   padding-top: 0%; width: 300px; margin-left: auto; margin-right: auto;
